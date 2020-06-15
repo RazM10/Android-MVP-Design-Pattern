@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ViewActivity"
-    android:background="#62405B">
+    android:background="#002628">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,8 +19,8 @@
             android:hint="Enter Name"
             android:inputType="text"
             android:textSize="20dp"
-            android:textColorHint="#F9EE00"
-            android:textColor="#FFFBF8"/>
+            android:textColorHint="#00BCBC"
+            android:textColor="#DCE2E5"/>
         <EditText
             android:id="@+id/email_et"
             android:layout_width="match_parent"
@@ -28,8 +28,8 @@
             android:hint="Enter Email"
             android:inputType="textEmailAddress"
             android:textSize="20dp"
-            android:textColorHint="#F9EE00"
-            android:textColor="#FFFBF8"/>
+            android:textColorHint="#00BCBC"
+            android:textColor="#DCE2E5"/>
         <EditText
             android:id="@+id/address_et"
             android:layout_width="match_parent"
@@ -37,16 +37,16 @@
             android:hint="Enter Address"
             android:inputType="text"
             android:textSize="20dp"
-            android:textColorHint="#F9EE00"
-            android:textColor="#FFFBF8"/>
+            android:textColorHint="#00BCBC"
+            android:textColor="#DCE2E5"/>
     </LinearLayout>
 
     <TextView
         android:id="@+id/info_tv"
-        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#F9EE00"
+        android:textColor="#00BCBC"
         android:textSize="25dp"
         android:layout_marginBottom="20dp"/>
 
